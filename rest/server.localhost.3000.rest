@@ -1,0 +1,18 @@
+
+###
+# yahoo-1
+GET http://localhost:3003/posts
+authentication: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoieWFob28tMSIsImlhdCI6MTU4OTUzMDA0N30.tN8k2YSTWMvf6u9SMcZmlOw5OIFNJ9hEbGqamuqlzJo
+###
+# yahoo-2
+GET http://localhost:3003/posts
+authentication: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoieWFob28tMiIsImlhdCI6MTU4OTUzMDAyOX0.GkKqrFS0IF0sEa7JHv2-L8lzQz8yekBO0JIhmBpv0Yc
+###
+# yahoo-3
+GET http://localhost:3003/posts
+authentication: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoieWFob28tMyIsImlhdCI6MTU4OTUzMDE0N30.Nj8oKEBhm7-RU2z1EnROB0OLiGsudtQueVbtxTlgTNg
+###
+POST http://localhost:3003/login
+Content-Type: application/json
+
+{"username":"yahoo-3"}
